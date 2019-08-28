@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 @EnableAspectJAutoProxy
 @Component
-@Aspect
+//@Aspect
 public class AspectPermission {
 
     @Before("execution(public void business.*.*())")

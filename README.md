@@ -6,6 +6,7 @@ The aspects are initally disabled. Please, enable each of one to see in detail
 how is working.
 
 //@Aspect   <-------
+
 public class AspectPermission {
 
     @Before("execution(public void business.*.*())")
